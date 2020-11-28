@@ -1,5 +1,10 @@
 # Nicer Logging
 *A simple yet nicer logging system.*
+## Installation
+```sh
+# Install with NPM
+npm i nicer-logging
+```
 ## What does it have?
 It has symbols and colors (which can be disabled).
 ## Example
