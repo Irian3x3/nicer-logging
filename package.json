@@ -1,0 +1,30 @@
+{
+  "name": "nicer-logging",
+  "version": "1.0.01",
+  "description": "A simple yet nicer logging system",
+  "main": "src/index.js",
+  "types": "typings/index.d.ts",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irian3x3/nicer-logging.git"
+  },
+  "keywords": [
+    "log",
+    "console",
+    "nicer-logging",
+    "logging"
+  ],
+  "author": "Irian3x3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Irian3x3/nicer-logging/issues"
+  },
+  "homepage": "https://github.com/Irian3x3/nicer-logging#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "log-symbols": "^4.0.0"
+  }
+}
