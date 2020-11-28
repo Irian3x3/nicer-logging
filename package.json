@@ -1,6 +1,6 @@
 {
   "name": "nicer-logging",
-  "version": "1.0.01",
+  "version": "1.0.2",
   "description": "A simple yet nicer logging system",
   "main": "src/index.js",
   "types": "typings/index.d.ts",
