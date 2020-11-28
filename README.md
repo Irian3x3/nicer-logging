@@ -9,7 +9,7 @@ const nice = require('nicer-logging');
 
 const log = new nice.Logger();
 
-log.info(`Hello!`)
+log.info(`Hello!`);
 ```
 ### TypeScript and Modules
 ```ts
@@ -17,7 +17,7 @@ import Nice from 'nicer-logging';
 
 const log = new Nice.Logger();
 
-log.info(`Hello!`)
+log.info(`Hello!`);
 ```
 ## Documentation
 ### Constructor
@@ -27,8 +27,8 @@ new Logger(options)
 #### Options
 | Parameter  | Type    | Description                         | Optional  | Default |
 |------------|---------|-------------------------------------|-----------|---------|
-| useSymbols | Boolean | Whether to use symbols when logging | Yes       | true    |
-| useColors  | Boolean | Whether to use colors when logging  | Yes       | true    |
+| useSymbols | Boolean | Whether to use symbols when logging | &check;   | true    |
+| useColors  | Boolean | Whether to use colors when logging  | &check;   | true    |
 ### Methods
 `.info(content)`
 | Parameter | Type   | Description | Optional |

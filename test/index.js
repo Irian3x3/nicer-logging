@@ -2,8 +2,8 @@ const { Logger } = require("../src/Logger");
 
 const con = new Logger({ useSymbols: false });
 
-con.warn(`warned`);
-con.error(`errored`);
-con.log(`logged`);
-con.info(`infod`);
-con.success(`successed`)
+con.warn(); // Errored: `LogError [NO_CONTENT]: No content was provided.`
+con.error(`errored`); // Success
+con.log(`logged`); // Success
+con.info(`infod`); // Success
+con.success(`successed`) // Success

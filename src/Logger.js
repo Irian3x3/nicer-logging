@@ -22,7 +22,9 @@ class Logger {
          */
         this.useColors = useColors;
     };
-
+    /**
+    * @param {String} content What to log
+    */
     async log(content) {
         if (!content) {
             throw new LogError(`NO_CONTENT`, `e`);
@@ -30,7 +32,9 @@ class Logger {
 
         return console.log(`${this.useSymbols ? `${symbols.info} ` : ""} ${this.useColors ? `${chalk.blue(content)}` : `${content}`}`);
     };
-
+    /**
+    * @param {String} content What to log
+    */
     async info(content) {
         if (!content) {
             throw new LogError(`NO_CONTENT`, `e`);
@@ -38,7 +42,9 @@ class Logger {
 
         return console.info(`${this.useSymbols ? `${symbols.info} ` : ""} ${this.useColors ? `${chalk.blue(content)}` : `${content}`}`);
     };
-
+    /**
+    * @param {String} content What to log
+    */
     async warn(content) {
         if (!content) {
             throw new LogError(`NO_CONTENT`, `e`);
@@ -46,7 +52,9 @@ class Logger {
 
         return console.warn(`${this.useSymbols ? `${chalk.yellow('⚠')} ` : ""} ${this.useColors ? `${chalk.yellow(content)}` : `${content}`}`);
     };
-
+    /**
+    * @param {String} content What to log
+    */
     async error(content) {
         if (!content) {
             throw new LogError(`NO_CONTENT`, `e`);
@@ -54,6 +62,10 @@ class Logger {
 
         return console.error(`${this.useSymbols ? `${symbols.error} ` : ""} ${this.useColors ? `${chalk.red(content)}` : `${content}`}`);
     };
+
+    /**
+     * @param {String} content What to log
+     */
 
     async success(content) {
         if (!content) {

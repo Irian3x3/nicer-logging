@@ -2,6 +2,10 @@ const Messages = {
     NO_CONTENT: "No content was provided."
 };
 
+/**
+ * A logging error
+ * @extends {Error}
+ */
 module.exports = class LogError extends Error {
     constructor(key, ...message) {
         if (!Messages[key]) {
@@ -9,8 +13,9 @@ module.exports = class LogError extends Error {
         };
         const msg = typeof Messages[key] == 'function' ? Messages[key](...message) : Messages[key];
 
-        this.key = key;
         super(msg);
+
+        this.key = key;
     };
 
     get name() {
