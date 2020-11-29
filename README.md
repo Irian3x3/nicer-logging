@@ -32,8 +32,8 @@ new Logger(options)
 #### Options
 | Parameter  | Type    | Description                         | Optional  | Default |
 |------------|---------|-------------------------------------|-----------|---------|
-| useSymbols | Boolean | Whether to use symbols when logging | &check;   | true    |
-| useColors  | Boolean | Whether to use colors when logging  | &check;   | true    |
+| useSymbols | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | Whether to use symbols when logging | &check;   | true    |
+| useColors  | [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | Whether to use colors when logging  | &check;   | true    |
 ### Methods
 `.info(content)`
 | Parameter | Type   | Description | Optional |
@@ -60,4 +60,4 @@ new Logger(options)
 |-----------|--------|-------------|----------|
 | content   | String | What to log | &times;  |
 ---
-#### *Yeah literally everything is the same*
+###### *Yeah literally everything is the same*
