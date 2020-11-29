@@ -38,26 +38,26 @@ new Logger(options)
 `.info(content)`
 | Parameter | Type   | Description | Optional |
 |-----------|--------|-------------|----------|
-| content   | String | What to log | &times;  |
+| content   | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | What to log | &times;  |
 ---
 `.warn(content)`
 | Parameter | Type   | Description | Optional |
 |-----------|--------|-------------|----------|
-| content   | String | What to log | &times;  |
+| content   | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | What to log | &times;  |
 ---
 `.error(content)`
 | Parameter | Type   | Description | Optional |
 |-----------|--------|-------------|----------|
-| content   | String | What to log | &times;  |
+| content   | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | What to log | &times;  |
 ---
 `.log(content)`
 | Parameter | Type   | Description | Optional |
 |-----------|--------|-------------|----------|
-| content   | String | What to log | &times;  |
+| content   | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | What to log | &times;  |
 ---
 `.success(content)`
 | Parameter | Type   | Description | Optional |
 |-----------|--------|-------------|----------|
-| content   | String | What to log | &times;  |
+| content   | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | What to log | &times;  |
 ---
 ###### *Yeah literally everything is the same*
