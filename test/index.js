@@ -1,4 +1,4 @@
-const { Logger } = require("../src/Logger");
+const { Logger } = require('../src/');
 
 const con = new Logger({ useSymbols: false });
 

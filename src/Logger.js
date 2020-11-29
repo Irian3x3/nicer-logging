@@ -2,7 +2,7 @@ const chalk = require('chalk');
 const symbols = require('log-symbols');
 const LogError = require('./util/LogError');
 
-class Logger {
+module.exports = class Logger {
     constructor(options = {}) {
 
         const {
@@ -75,5 +75,3 @@ class Logger {
         return console.log(`${this.useSymbols ? `${symbols.success} ` : ""} ${this.useColors ? `${chalk.green(content)}` : `${content}`}`);
     };
 };
-
-module.exports = { Logger };
